@@ -1,0 +1,12 @@
+syntax = "proto3";
+package barracuda;
+service BlobProxy {
+    rpc ReadBlob (ReadBlobRequest) returns (ReadBlobResponse) {}
+}
+message ReadBlobRequest {
+    string key = 1;
+}
+message ReadBlobResponse {
+    bytes data = 1;
+}
+
