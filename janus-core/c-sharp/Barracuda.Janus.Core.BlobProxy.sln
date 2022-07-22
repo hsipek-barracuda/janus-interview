@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barracuda.Janus.Core.BlobProxy", "Barracuda.Janus.Core.BlobProxy\Barracuda.Janus.Core.BlobProxy.csproj", "{B41CFD56-39E7-494C-8932-919DF61C94D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barracuda.Janus.Core.BlobProxy.Server", "Barracuda.Janus.Core.BlobProxy.Server\Barracuda.Janus.Core.BlobProxy.Server.csproj", "{BF8E689F-870D-41B7-B5F3-D1BC418EFD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barracuda.Janus.Core.BlobProxy.Server.Tests", "Barracuda.Janus.Core.BlobProxy.Server.Tests\Barracuda.Janus.Core.BlobProxy.Server.Tests.csproj", "{F9F02280-0DE3-4638-83C6-A15C9991F160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B41CFD56-39E7-494C-8932-919DF61C94D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41CFD56-39E7-494C-8932-919DF61C94D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41CFD56-39E7-494C-8932-919DF61C94D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41CFD56-39E7-494C-8932-919DF61C94D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF8E689F-870D-41B7-B5F3-D1BC418EFD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF8E689F-870D-41B7-B5F3-D1BC418EFD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF8E689F-870D-41B7-B5F3-D1BC418EFD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF8E689F-870D-41B7-B5F3-D1BC418EFD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F02280-0DE3-4638-83C6-A15C9991F160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F02280-0DE3-4638-83C6-A15C9991F160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F02280-0DE3-4638-83C6-A15C9991F160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F02280-0DE3-4638-83C6-A15C9991F160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
