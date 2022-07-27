@@ -1,12 +1,21 @@
 syntax = "proto3";
 package barracuda;
+
+import "google/protobuf/empty.proto";
+
 service BlobProxy {
     rpc ReadBlob (ReadBlobRequest) returns (ReadBlobResponse) {}
+    rpc ListBlobs (google.protobuf.Empty) returns (ListBlobsResponse) {}
 }
 message ReadBlobRequest {
     string key = 1;
 }
 message ReadBlobResponse {
     bytes data = 1;
+}
+
+message ListBlobsResponse {
+    uint64 count = 1;
+    uint64 size = 2;
 }
 
